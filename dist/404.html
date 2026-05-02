@@ -1,0 +1,22 @@
+/* GitHub Pages SPA fallback - 404 page */
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AquaSim - Watershed Simulator</title>
+    <script>
+      // SPA fallback for GitHub Pages
+      (function() {
+        var path = window.location.pathname;
+        var search = window.location.search;
+        window.location.replace(
+          window.location.origin + '/#' + path + search
+        );
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+  </body>
+</html>
